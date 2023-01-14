@@ -1,10 +1,11 @@
-package com.abm.testdashfleet
+package com.abm.testdashfleet.ui.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.abm.testdashfleet.R
 
 
 class PayFragment : Fragment() {

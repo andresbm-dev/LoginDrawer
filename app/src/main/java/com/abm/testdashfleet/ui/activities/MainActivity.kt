@@ -1,4 +1,4 @@
-package com.abm.testdashfleet
+package com.abm.testdashfleet.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -11,6 +11,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.abm.testdashfleet.R
 import com.abm.testdashfleet.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -24,8 +25,10 @@ class MainActivity : AppCompatActivity() {
 
         navController = findNavController(R.id.main_nav_host)
 
-        appBarConfiguration = AppBarConfiguration.Builder(R.id.homeFragment, R.id.additional_fragment,
-            R.id.credit_card_fragment, R.id.pay_fragment, R.id.adjust_fragment )
+        appBarConfiguration = AppBarConfiguration.Builder(
+            R.id.homeFragment, R.id.additional_fragment,
+            R.id.credit_card_fragment, R.id.pay_fragment, R.id.adjust_fragment
+        )
             .setOpenableLayout(binding.mainDrawerLayout)
             .build()
 

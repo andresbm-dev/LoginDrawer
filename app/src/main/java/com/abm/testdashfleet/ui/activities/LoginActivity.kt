@@ -1,4 +1,4 @@
-package com.abm.testdashfleet
+package com.abm.testdashfleet.ui.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -13,7 +13,7 @@ class LoginActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.login.setOnClickListener {
-            startActivity(Intent(this,MainActivity::class.java))
+            startActivity(Intent(this, MainActivity::class.java))
         }
     }
 }

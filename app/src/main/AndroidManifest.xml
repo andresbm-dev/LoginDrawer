@@ -14,11 +14,11 @@
         android:theme="@style/Theme.TestDashFleet"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.activities.MainActivity"
             android:exported="true"
             android:theme="@style/AppTheme"/>
         <activity
-            android:name=".LoginActivity"
+            android:name=".ui.activities.LoginActivity"
             android:exported="true"
             android:theme="@style/Theme.TestDashFleet.NoActionBar"
             >

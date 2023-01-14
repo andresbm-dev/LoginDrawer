@@ -10,32 +10,32 @@
     <!--In the label field of fragment you can give the name that you want to show in the toolbar-->
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.abm.testdashfleet.HomeFragment"
+        android:name="com.abm.testdashfleet.ui.fragments.HomeFragment"
         android:label="Inicio"
         tools:layout="@layout/fragment_home"
         />
 
     <fragment
         android:id="@+id/additional_fragment"
-        android:name="com.abm.testdashfleet.AdditionalFragment"
+        android:name="com.abm.testdashfleet.ui.fragments.AdditionalFragment"
         android:label="Agregar"
         tools:layout="@layout/fragment_additional" />
 
     <fragment
         android:id="@+id/adjust_fragment"
-        android:name="com.abm.testdashfleet.AdjustFragment"
+        android:name="com.abm.testdashfleet.ui.fragments.AdjustFragment"
         android:label="Ajustes"
         tools:layout="@layout/fragment_adjust" />
 
     <fragment
         android:id="@+id/credit_card_fragment"
-        android:name="com.abm.testdashfleet.CreditCardFragment"
+        android:name="com.abm.testdashfleet.ui.fragments.CreditCardFragment"
         android:label="Billetera"
         tools:layout="@layout/fragment_credit_card" />
 
     <fragment
         android:id="@+id/pay_fragment"
-        android:name="com.abm.testdashfleet.PayFragment"
+        android:name="com.abm.testdashfleet.ui.fragments.PayFragment"
         android:label="Pagos"
         tools:layout="@layout/fragment_pay" />
 
