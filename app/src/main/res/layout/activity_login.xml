@@ -91,6 +91,7 @@
                     android:textSize="24sp"
                     android:backgroundTint="@android:color/transparent"
                     android:inputType="phone"
+                    android:maxLength="13"
                     android:maxLines="1">
                 </AutoCompleteTextView>
 
