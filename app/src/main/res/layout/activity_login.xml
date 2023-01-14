@@ -3,9 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-   >
-
+    android:layout_height="match_parent">
     <androidx.cardview.widget.CardView
         android:id="@+id/cardContainer"
         android:layout_width="0dp"
@@ -61,13 +59,15 @@
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardContainer"
-        android:paddingBottom="50dp">
+        android:background="@color/white"
+        >
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical"
+            android:paddingBottom="50dp"
             android:layout_marginTop="16dp"
-            app:layout_constraintTop_toBottomOf="@+id/cardContainer">
+            >
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -83,12 +83,16 @@
                 app:cardCornerRadius="8dp"
                 android:elevation="4dp">
 
-                <EditText
+                <AutoCompleteTextView
+                    android:id="@+id/field_cellphone"
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:layout_marginStart="10dp"
-                    android:textSize="24sp">
-                </EditText>
+                    android:textSize="24sp"
+                    android:backgroundTint="@android:color/transparent"
+                    android:inputType="phone"
+                    android:maxLines="1">
+                </AutoCompleteTextView>
 
             </androidx.cardview.widget.CardView>
             <TextView
@@ -97,6 +101,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="24dp"
                 android:textStyle="bold"
+                android:maxLines="1"
                 android:text="Clave"/>
 
             <androidx.cardview.widget.CardView
@@ -107,12 +112,13 @@
                 app:cardCornerRadius="8dp"
                 android:elevation="4dp">
 
-                <EditText
+                <AutoCompleteTextView
                     android:id="@+id/editTextNumberPassword"
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
-                    android:ems="10"
-                    android:inputType="numberPassword"
+                    android:maxLines="1"
+                    android:inputType="textPassword"
+                    android:backgroundTint="@android:color/transparent"
                     android:layout_marginStart="10dp"
                     />
             </androidx.cardview.widget.CardView>
@@ -126,6 +132,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
                     android:checked="true"
+                    android:theme="@style/SCBSwitch"
                     android:layout_marginStart="16dp"
                     />
                 <TextView
@@ -141,7 +148,7 @@
                 android:layout_width="200dp"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="100dp"
+                android:layout_marginTop="80dp"
                 android:backgroundTint="@color/black"
                 android:background="@drawable/border_roundend"
                 android:text="Entrar"
