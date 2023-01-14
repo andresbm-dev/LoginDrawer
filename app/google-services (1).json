@@ -1,0 +1,113 @@
+{
+  "project_info": {
+    "project_number": "468762930583",
+    "project_id": "login-17031",
+    "storage_bucket": "login-17031.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468762930583:android:151974685fbef73e3d28d2",
+        "android_client_info": {
+          "package_name": "com.abm.testdashfleet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468762930583-nah9arl2irbgtvf2pf6q62fhirvc36jm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abm.testdashfleet",
+            "certificate_hash": "651aa1aa089d9325c8edddba86041aed97f2e22c"
+          }
+        },
+        {
+          "client_id": "468762930583-mbq5bl6sh5c2cmeo9gub4p53al7dgcvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBXn7zLBoDSud0fTCLYS4cYMMdvJoUFvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468762930583-mbq5bl6sh5c2cmeo9gub4p53al7dgcvj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468762930583:android:8b2751f867aced013d28d2",
+        "android_client_info": {
+          "package_name": "com.example.biomedicapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468762930583-mbq5bl6sh5c2cmeo9gub4p53al7dgcvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBXn7zLBoDSud0fTCLYS4cYMMdvJoUFvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468762930583-mbq5bl6sh5c2cmeo9gub4p53al7dgcvj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468762930583:android:85b39d3ccc30273e3d28d2",
+        "android_client_info": {
+          "package_name": "com.example.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468762930583-d52k7449bm59taffm4p31k16h72ud4tr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.login",
+            "certificate_hash": "2de7c283209d89c69df2e82793cf888d75aaf2e5"
+          }
+        },
+        {
+          "client_id": "468762930583-mbq5bl6sh5c2cmeo9gub4p53al7dgcvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBXn7zLBoDSud0fTCLYS4cYMMdvJoUFvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468762930583-mbq5bl6sh5c2cmeo9gub4p53al7dgcvj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
