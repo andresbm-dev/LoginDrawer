@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/carlos/AndroidStudioProjects/TestDashFleet/app/src/main/res/drawable/border_roundend.xml" value="0.148" />
         <entry key="..\:/Users/carlos/AndroidStudioProjects/TestDashFleet/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.148" />
+        <entry key="..\:/Users/carlos/AndroidStudioProjects/TestDashFleet/app/src/main/res/drawable/ic_baseline_monetization_on_24.xml" value="0.148" />
         <entry key="..\:/Users/carlos/AndroidStudioProjects/TestDashFleet/app/src/main/res/drawable/ic_dashboard.xml" value="0.148" />
+        <entry key="..\:/Users/carlos/AndroidStudioProjects/TestDashFleet/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/carlos/AndroidStudioProjects/TestDashFleet/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/carlos/AndroidStudioProjects/TestDashFleet/app/src/main/res/layout/fragment_additional.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/carlos/AndroidStudioProjects/TestDashFleet/app/src/main/res/layout/nav_header.xml" value="0.20416666666666666" />

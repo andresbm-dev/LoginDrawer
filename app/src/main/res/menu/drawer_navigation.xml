@@ -5,18 +5,27 @@
     <!--Each item id should be same as in the nav_graph fragment id-->
 
     <item
+        android:id="@+id/additional_fragment"
+        android:icon="@drawable/ic_baseline_add_24"
+        android:title="Agregar" />
+    <item
         android:id="@+id/homeFragment"
         android:icon="@drawable/ic_home"
         android:title="@string/home" />
-
-
-    <item
-        android:id="@+id/additional_fragment"
-        android:icon="@drawable/ic_baseline_add_24"
-        android:title="add" />
     <item
         android:id="@+id/credit_card_fragment"
         android:icon="@drawable/ic_baseline_credit_card_24"
-        android:title="Credit card" />
+        android:title="Billetera" />
+
+    <item
+        android:id="@+id/pay_fragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_monetization_on_24"
+        android:title="Pagos"/>
+    <item
+        android:id="@+id/adjust_fragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_adjust_24"
+        android:title="Ajustes"/>
 
 </menu>

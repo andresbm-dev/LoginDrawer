@@ -4,33 +4,41 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/homeFragment"
+    app:startDestination="@id/additional_fragment"
     tools:ignore="InvalidNavigation">
 
     <!--In the label field of fragment you can give the name that you want to show in the toolbar-->
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.abm.testdashfleet.HomeFragment"
-        android:label="Home"
+        android:label="Inicio"
         tools:layout="@layout/fragment_home"
         />
 
     <fragment
         android:id="@+id/additional_fragment"
         android:name="com.abm.testdashfleet.AdditionalFragment"
-        android:label="Accounts"
+        android:label="Agregar"
         tools:layout="@layout/fragment_additional" />
 
     <fragment
         android:id="@+id/adjust_fragment"
         android:name="com.abm.testdashfleet.AdjustFragment"
-        android:label="Dashboard"
+        android:label="Ajustes"
         tools:layout="@layout/fragment_adjust" />
 
     <fragment
         android:id="@+id/credit_card_fragment"
         android:name="com.abm.testdashfleet.CreditCardFragment"
-        android:label="Profile"
+        android:label="Billetera"
         tools:layout="@layout/fragment_credit_card" />
+
+    <fragment
+        android:id="@+id/pay_fragment"
+        android:name="com.abm.testdashfleet.PayFragment"
+        android:label="Pagos"
+        tools:layout="@layout/fragment_pay" />
+
+
 
 </navigation>

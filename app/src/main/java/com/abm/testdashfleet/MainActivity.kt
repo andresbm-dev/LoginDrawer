@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         navController = findNavController(R.id.main_nav_host)
 
         appBarConfiguration = AppBarConfiguration.Builder(R.id.homeFragment, R.id.additional_fragment,
-            R.id.credit_card_fragment, )
+            R.id.credit_card_fragment, R.id.pay_fragment, R.id.adjust_fragment )
             .setOpenableLayout(binding.mainDrawerLayout)
             .build()
 
@@ -50,20 +50,6 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    private fun hideBothNavigation() { //Hide both drawer and bottom navigation bar
-        binding.mainBottomNavigationView.visibility = View.GONE
-        binding.mainNavigationView.visibility = View.GONE
-        binding.mainDrawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED) //To lock navigation drawer so that it don't respond to swipe gesture
-    }
-
-    private fun hideBottomNavigation() { //Hide bottom navigation
-        binding.mainBottomNavigationView.visibility = View.GONE
-        binding.mainNavigationView.visibility = View.VISIBLE
-        binding.mainDrawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_UNLOCKED) //To unlock navigation drawer
-
-        binding.mainNavigationView.setupWithNavController(navController) //Setup Drawer navigation with navController
-    }
-
     private fun showBothNavigation() {
         binding.mainBottomNavigationView.visibility = View.VISIBLE
         binding.mainNavigationView.visibility = View.VISIBLE
@@ -82,12 +68,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
-        when { //If drawer layout is open close that on back pressed
+        when {
             binding.mainDrawerLayout.isDrawerOpen(GravityCompat.START) -> {
                 binding.mainDrawerLayout.closeDrawer(GravityCompat.START)
             }
             else -> {
-                super.onBackPressed() //If drawer is already in closed condition then go back
+                super.onBackPressed()
             }
         }
     }
